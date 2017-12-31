@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Puzzle Game</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+  <center><img src="title.png" alt="Mountain View" style="width:400px;height:100px;"></center>
+ 
+</head>
+
+<script src="main.js"></script>
+
+<body>
+  <body onLoad="start()">
+    <center>
+<image src="springback.png"/>
+  <div id="numTable">
+     
+      <table id="table">
+        <center>
+       </table>
+      <br>
+      <br>
+      <label>Rows <input type="text" name="rows" id="rows" value="4" size="2"></label>
+      <label>Columns <input type="text" name="columns" id="columns" value="4" size="2"></label>
+      <input type="button" id="newGame" value="Start New Game">
+
+       <h2 id="demo" style="color:white;">Elapsed Time: 0:0</h2>
+       <button onclick="myStartFunction()">Start</button> <button onclick="myStopFunction()">Stop</button>
+      <br>
+      <br>
+      <!--Number of Moves:-->
+      <span id="moves">0</span>
+  </div>
+  
+  <audio autoplay src = "music/quirky.mp3">
+
+  </body>
+
+</html>

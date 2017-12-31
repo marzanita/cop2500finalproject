@@ -1,0 +1,66 @@
+body {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 25px;
+    color: #d1a161
+}
+
+#numTable {
+    position: relative;
+    bottom: 800px;
+}
+
+#table {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f8c5cf;
+    text-align: center;
+    /* Webkit (Chrome and Safari) */
+    background: -webkit-gradient(linear, top, bottom, color-stop(15%, #fdeff0), color-stop(80%, #f9a2c5), );
+    /* Mozilla */
+    background: -moz-linear-gradient(top, #fdeff0 15%, #f9a2c5 90%);
+    /* Internet Explorer */
+    background: linear-gradient(90deg, #fdeff0 15%, #f9a2c5 90%);
+    color: #d1a161;
+    cursor: pointer;
+
+}
+
+.blank {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#moves {
+    border: 3px solid #fdeff0;
+    /* Webkit (Chrome and Safari) */
+    background: -webkit-gradient(linear, top, bottom, color-stop(15%, #fdeff0, color-stop(80%, #f9a2c5), );
+    /* Mozilla */
+    background: -moz-linear-gradient(top,#fdeff0 15%, #f9a2c5 90%);
+    /* Internet Explorer */
+    background: linear-gradient(90deg, #fdeff0 15%, #f9a2c5 90%);
+    font-weight: bold;
+    padding: 4px 7px;
+    color: #f8c5cf;
+ }
+ 
+#button{
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: pink;
+
+
+ }
+
+
+
+/* end fifteen game */
